@@ -1,0 +1,9 @@
+<Solution>
+  <!-- Steps 1-8: Four-layer ASP.NET Core Identity solution. -->
+  <Folder Name="/src/">
+    <Project Path="src/IdentitySystem.API/IdentitySystem.API.csproj" />
+    <Project Path="src/IdentitySystem.Application/IdentitySystem.Application.csproj" />
+    <Project Path="src/IdentitySystem.Domain/IdentitySystem.Domain.csproj" />
+    <Project Path="src/IdentitySystem.Infrastructure/IdentitySystem.Infrastructure.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Step 1: Identity base classes for the domain user and role. -->
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="10.0.*" />
+  </ItemGroup>
+
+</Project>
